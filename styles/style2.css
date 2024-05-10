@@ -1,0 +1,73 @@
+* {
+    font-family: "Century Gothic";
+}
+
+#todo {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+form {
+    box-shadow: 1px 1px 8px 1px #00000054;
+}
+
+input[type=text] {
+    float: left;
+    box-sizing: border-box;
+    width: 80%;
+    padding: 10px;
+    border: 3px solid #00c1ff;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border-color: #7017d2;
+}
+
+input[type=text]:focus + input[type=submit] {
+    border-color: #7017d2;
+    background: #7017d2;
+}
+
+input[type=submit], button {
+    box-sizing: border-box;
+    width: 20%;
+    padding: 10px;
+    border: 3px solid #00ccff;
+    background: #00ccff;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+button {
+    width: 75px;
+    cursor: pointer;
+    background: red;
+    border: red;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #7017d2;
+    box-shadow: 1px 1px 8px 1px #00000054;
+}
+
+thead {
+    background: #7017d2;
+    color: #fff;
+    padding: 5px;
+    box-shadow: inset 1px 1px 8px 5px #7a498e99;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    font-weight: 100;
+}
+

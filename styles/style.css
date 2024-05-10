@@ -1,0 +1,82 @@
+@font-face {
+	font-family: vazir;
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/Vazir-FD-WOL.eot");
+	src: url("../fonts/Vazir-FD-WOL.woff") format("woff"), url("../fonts/Vazir-FD-WOL.ttf") format("ttf"), url("../fonts/Vazir-FD-WOL.woff2") format("woff2");
+}
+/*css reset code*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: vazir;
+	direction: rtl;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #ccd7e8;
+}
+form,
+h1,
+h2,
+th,
+td,
+input,
+button {
+	font-family: vazir !important;
+}
+form {
+	display: flex;
+	justify-content: space-between;
+	margin: 0.5rem 0;
+}
+table {
+	direction: rtl;
+	border-collapse: collapse;
+	background-color: white;
+	overflow: hidden;
+	width: 500px;
+	border-radius: 10px;
+}
+
+th,
+td {
+	font-family: "Motnserrat", sans-serif;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px;
+	border: 2px solid #d5d5d5;
+}
+
+th {
+	background-color: #7691ab;
+	color: white;
+}
+input[type="text"],
+input[type="submit"] {
+	height: 2.1rem;
+	border: none;
+	outline: 0;
+	border-radius: 0.2rem;
+	font-size: 16px;
+}
+input[type="text"]{
+   width: 75%;
+}
+button {
+	padding: 0.4rem 0.8rem;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type="submit"] {
+   width: 24%;
+}
+
+input[type="text"] {
+	padding: 0 0.5rem;
+}

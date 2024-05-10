@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+      <!-- the charset meta -->
+		<meta charset="UTF-8" />
+      <!-- title of the web page -->
+		<title>Todo list by mehdi</title>
+      <!-- styel sheet of the todo list -->
+		<link rel="stylesheet" href="./styles/style.css" />
+	</head>
+	<body>
+      <!-- start todo div -->
+		<div id="todo">
+         <!-- todo form -->
+			<form onsubmit="" id="user-form">
+				<input type="text" id="task-title" placeholder="نوشتن یک تسک..." autofocus/>
+				<input type="submit" value="افزودن تسک" onclick="addNewTask(event)" />
+			</form>
+         <!-- end todo form -->
+         <!-- todo table -->
+			<table border="1">
+				<thead>
+					<tr>
+						<th>ردیف</th>
+						<th>عنوان تسک</th>
+						<th>عملیات</th>
+						<th>انجام شده</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+         <!-- todo table -->
+		</div>
+      <!-- end todo div -->
+      <!-- add jquery to handle html element -->
+		<script src="./js/jquery.min.js"></script>
+      <!-- script to write javascript codes -->
+		<script src="./js/script.js"></script>
+	</body>
+</html>
